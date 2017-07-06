@@ -23,6 +23,7 @@ install:
 build_script:
   - node --version
   - npm --version
+  - npm view electron version
   - npm run pack:win
 
 test: off
