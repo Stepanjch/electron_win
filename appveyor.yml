@@ -23,6 +23,6 @@ install:
 build_script:
   - node --version
   - npm --version
-  - npm run pack:win
+  - npm run pack:win --publish=never
 
 test: off
