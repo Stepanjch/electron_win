@@ -23,6 +23,6 @@ install:
 build_script:
   - node --version
   - npm --version
-  - npm run private:build:all
+  - npm run private:build:win
 
 test: off
