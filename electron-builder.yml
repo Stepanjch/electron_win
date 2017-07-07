@@ -29,7 +29,7 @@ mac:
   category: public.app-category.tools
 
 win:
-  target: nsis
+  target: squirrel
 
 linux:
   target:
